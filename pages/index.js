@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <Container maxW="container.lg">
       <Box borderRadius="lg" p={3} bg="whiteAlpha.200" align="center" mb={6}>
-        <p>Welcome!</p> <p>I am Amirul and this is my online portfolio </p>
+        <p>Welcome!</p> <p>I'm Amirul and this is my online portfolio </p>
       </Box>
       <Box dispaly={{ md: "flex" }}>
         <Box flexGrow={1}>
