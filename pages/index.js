@@ -96,7 +96,7 @@ const Home = () => {
         <BioSection>
           <BioYear>2018</BioYear>
           Completed the Bachelor of Computer Science with CGPA 3.56 at
-          Univeristi Kebangsaan Malaysia
+          Univeristi Kebangsaan Malaysia specialized in Artificial Intelligence
         </BioSection>
       </Box>
       <Box>
