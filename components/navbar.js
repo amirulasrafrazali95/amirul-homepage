@@ -58,9 +58,6 @@ const Navbar = (props) => {
           flexGrow={1}
           mt={{ base: 4, nmd: 0 }}
         >
-          <LinkItem href="/about" path={path}>
-            About Me
-          </LinkItem>
           <LinkItem href="/work" path={path}>
             Work Experience
           </LinkItem>
