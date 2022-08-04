@@ -27,9 +27,6 @@ import NextLink from "next/link";
 const Home = () => {
   return (
     <Container maxW="container.lg">
-      <Box borderRadius="lg" p={3} bg="whiteAlpha.200" align="center" mb={6}>
-        <p>Welcome!</p> <p>I'm Amirul and this is my online portfolio </p>
-      </Box>
       <Box dispaly={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -95,8 +92,8 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          Completed the Bachelor of Computer Science with CGPA 3.56 at
-          Univeristi Kebangsaan Malaysia specialized in Artificial Intelligence
+          Completed the Bachelor of Computer Science specialized in Artificial Intelligence at
+          Univeristi Kebangsaan Malaysia
         </BioSection>
       </Box>
       <Box>
@@ -113,11 +110,11 @@ const Home = () => {
           <Tbody>
             <Tr>
               <Td>Java</Td>
-              <Td>Spring Boot, Hibernate, Vaadin, Java Server Faces</Td>
+              <Td>Spring Boot, Spring Boot, Hibernate, Vaadin 7, Java Server Faces, jUnit</Td>
             </Tr>
             <Tr>
               <Td>Javascript</Td>
-              <Td>NodeJs, React, NextJs, Chakra UI</Td>
+              <Td>NodeJs, React, NextJs, Chakra UI, jQuery</Td>
             </Tr>
             <Tr>
               <Td>Operating System</Td>
@@ -125,7 +122,7 @@ const Home = () => {
             </Tr>
             <Tr>
               <Td>Tools</Td>
-              <Td>Maven</Td>
+              <Td>Maven, MySql 5.7, Oracle SQL, Git, SVN, CVS, Jenkins, Selenium</Td>
             </Tr>
           </Tbody>
         </Table>
